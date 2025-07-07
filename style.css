@@ -21,7 +21,7 @@ form{
 	margin: 50px 125px;
 	padding-bottom: 40px;
 	background: transparent;
-	background-image: url(imagens/banner_u.png);
+	background-image: url(banner_u.png);
 	border: 3.2px solid darkgreen;
 	border-radius: 50px;
 }
@@ -31,7 +31,7 @@ form{
 	margin: 50px 125px;
 	padding-bottom: 40px;
 	background: transparent;
-	background-image: url(imagens/banner_nu.png);
+	background-image: url(banner_nu.png);
 	border: 3.2px solid darkgreen;
 	border-radius: 50px;
 }
@@ -104,7 +104,7 @@ header img{
 }
 	
 header{
-	background-image: url(imagens/banner.png);
+	background-image: url(banner.png);
 	padding-top:20px;
 	border-bottom: 5px solid green;
 	border-top: 4px solid green;
@@ -313,7 +313,7 @@ iframe{
 
 /*Footer*/
 footer{
-	background-image: url(imagens/banner.png);
+	background-image: url(banner.png);
 	border-bottom: 3px solid green;
 	border-top: 4px solid green;
 }
