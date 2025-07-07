@@ -1,0 +1,65 @@
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="style.css">
+	<title>Usuario</title>
+</head>
+
+<body>
+	<header>
+		<div class="menu">
+			<h1><img src="imagens/logo.png"></h1>
+
+			<nav>
+				<ul>
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="receitas_destaque.html">Em Destaque</a></li>
+					<li><a href="recem_adicionadas.html">Recem Adicionadas</a></li>
+					<li><a href="comentarios.html">Comentarios</a></li>
+					<li><a href="usuário.html" class="atual">Usuario</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<main class="mainform">
+		<form>
+			<label for="usuario" id="espaconav">Nome de Usuário</label>
+			<div class="centralizar">
+			<input type="text" id="nomeusuario" class="input-padrao" required>
+			</div>
+
+			<label for="email">Email</label>
+			<div class="centralizar">
+			<input type="text" id="email" class="input-padrao" required placeholder="seuemail@dominio">
+			</div>
+
+			<label for="senha">Senha</label>
+			<div class="centralizar">
+			<input type="password" id="email" class="input-padrao" required>
+			</div>
+
+			<div class="centralizar">
+			<input type="submit" value="Acessar Conta" id="enviar">
+			</div>
+
+			<p>Ainda não tem uma conta?</p>
+			<a href="novo_user.html" class="botao-cadastro">Cadastre-se!</a>
+
+		</form>
+	</main>
+
+<footer>
+    <div>
+        <div><img src="imagens/logo.png"></div>
+        <p>Este site foi produzido para a disciplina de Fundamentos de Web Design</p>
+        <p>Aluno: Eduardo Borges Pereira</p>
+        <p>Professor orientador: Marco Antônio Maciel Pereira</p>
+        <div><img src="imagens/logo.png"></div>
+    </div>
+</footer>
+
+</body>
+</html>
